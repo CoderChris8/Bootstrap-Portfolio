@@ -1,75 +1,94 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>My Professional Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/reset.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> <!-- referenced bootcamp link -->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
+   
     <body>
-        <div class="container"> 
-            <nav class="navbar navbar-default">
-                <header class="header clearfix">                
-                    <div class="navbar-header">
-                        <a class="nav-heading" href="index.html">Christopher Enriquez</a>
+        <div class="wrapper">
+            
+            <header class="nav-header clearfix"></header>
+            <!-- NavBar (copied and pasted from class video) -->
+            <!-- Static navbar -->
+                <nav class="navbar-default navbar-static-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">Christopher Enriquez</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html">About</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class=collapse navbar-collapse" id="bs-example-navbar-collapse-1"></div>
-                        <ul class="nav">
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    
-                </header>
-            </nav>
-        </div>    
+                </nav>
+            </header>
         
-        <div class="container">
-            <div class="row">
-                <div class="container clearfix">
-                    <div class="col-md-8">
-                        <section class="main">
-                            <h1 class="content-header">About Me</h1>
-                            
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img class="bio-image" src="assets/images/Chris and Mango.png" height="200" width="200">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <h1>About Me</h1>
+                        </div>
+                        <div class-"row"
+                            <div class="col-md-2">                    
+                                <img class="bio-image" src="assets/images/Chris and Mango.png" height="175" width="175">
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Thank you for visiting my page
+                                </p>
+
+                                <p>
+                                    I have several years of experience in managing the accounts payable systems in the public sector.
+                                    In addition, I worked in the insurance insurance industry for three years. 
+                                    Both experiences have makes me a valuable asset to help provide great customer service to your clients.
+                                </p>
+
+                                <p>
+                                    In my spare time, I have a great passion for the game of basketball. 
+                                    I play once or twice week and I coach a 10-12 recreation league. 
+                                    I love the aspect of the life lessons of the game and how it can relate to life experiences.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                            <h3 class="sidebar-header">Connect with Me</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="https://github.com/CoderChris8" target="_blank" class="sidebar-logo logogithub">
+                                            <img src="assets/images/GitHub-Mark-Light-64px.png" alt="Github logo"/>
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/christopher-enriquez-09584925/" target="_blank" class="sidebar-logo logolinkedin">
+                                            <img src="assets/images/linkedin-logo-copy.png" alt="Linkedin logo" />
+                                        </a>
+                                        <a href="https://stackoverflow.com/users/8854433/chris" target="_blank" class="sidebar-logo linkedinlink">
+                                            <img   src="assets/images/109012_media_512x512.png" alt="Stackoverflow logo" />
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <p>Thank you for visiting my page</p>
-
-                            <p>I have several years of experience in managing the accounts payable systems in the public sector.
-                                In addition, I worked in the insurance insurance industry for three years. 
-                                Both experiences have makes me a valuable asset to help provide great customer service to your clients.
-                            </p>
-
-                            <p>
-                                In my spare time, I have a great passion for the game of basketball. 
-                                I play once or twice week and I coach a 10-12 recreation league. 
-                                I love the aspect of the life lessons of the game and how it can relate to life experiences.
-                            </p>
-                        </section>
-                        <aside class="sidebar">
-                            <h3 class="sidebar-header">Connect with Me</h3>
-                            <a href="https://github.com/CoderChris8" target="_blank" class="sidebar-logo logogithub">
-                                <img src="assets/images/GitHub-Mark-Light-64px.png" alt="Github logo"/>
-                            </a>
-                            <a href="https://www.linkedin.com/in/christopher-enriquez-09584925/" target="_blank" class="sidebar-logo logolinkedin">
-                                <img src="assets/images/linkedin-logo-copy.png" alt="Linkedin logo" />
-                            </a>
-                            <a href="https://stackoverflow.com/users/8854433/chris" target="_blank" class="sidebar-logo linkedinlink">
-                                <img   src="assets/images/109012_media_512x512.png" alt="Stackoverflow logo" />
-                            </a>
-                        </aside>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <footer class="footer">
-            Copyright &copy; 2017 Christopher Enriquez.
-        </footer>
+            
+                    
+
+            <footer class="footer">
+                Copyright &copy; 2017 Christopher Enriquez.
+            </footer>
     </body>
 </html>
