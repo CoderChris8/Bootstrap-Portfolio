@@ -17,7 +17,10 @@ body{
 }
 
 a.navbar-brand { /*works*/
-    color: blue;
+    display: block; /*did not work*/
+    float: left;
+    background: #4aaaa5;
+    color: white;
     padding: 20px; 
     font-size: 30px;
     text-decoration: none;
@@ -105,6 +108,7 @@ p:last-of-type{
 }
 
 .sidebar{
+    width: 270px;
     float: right;
     background: #ffffff;
     border: 1px solid #cccccc;

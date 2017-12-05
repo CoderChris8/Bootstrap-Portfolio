@@ -6,9 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> <!-- referenced bootcamp link -->
         <link rel="stylesheet" href="assets/css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.css"/> <!-- referenced bootcamp link -->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"/> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
@@ -36,35 +37,39 @@
             </header>
 
         <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <section class="main">
-                        <h1 class="content-header">Portfolio</h1>
-                            <div class="portfolio-images">
-                                <div class="portfolio-images-wrap">
-                                    <a href="#">Sun Kick</a>
-                                    <img class="sportssunkick" src="assets/images/sports-q-c-800-480-6.jpg" alt="Soccer Sun Kick" > 
+            <!-- <div class="row"> -->
+                <div class="clearfix visible"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <section class="main clearfix">
+                            <h1 class="content-header">Portfolio</h1>
+                                <div class="portfolio-images">
+                                    <div class="portfolio-images-wrap">
+                                        <a href="#">Sun Kick</a>
+                                        <img class="sportssunkick" src="assets/images/sports-q-c-800-480-6.jpg" alt="Soccer Sun Kick" > 
+                                    </div>
+                                    <div class="portfolio-images-wrap">
+                                        <a href="#">Headphones</a>
+                                        <img class="technics" src="assets/images/technics-q-c-800-480-6.jpg" alt="Sony Headphone"> 
+                                    </div>
+                                    <div class="portfolio-images-wrap">
+                                        <a href="#">Party</a>
+                                        <img class="nightlife" src="assets/images/nightlife-q-c-800-480-3.jpg" alt="Party Time">
+                                    </div>
+                                    <div class="portfolio-images-wrap">
+                                        <a href="#">Late-Night Meal</a>
+                                        <img class="food" src="assets/images/food-q-c-800-480-8.jpg" alt="After Party Meal">
+                                    </div>    
+                                    <div class="portfolio-images-wrap">
+                                        <a href="#">Skyline</a>
+                                        <img class="city" src="assets/images/city-q-c-800-480-2.jpg" alt="Downtown">
+                                    </div>
                                 </div>
-                                <div class="portfolio-images-wrap">
-                                    <a href="#">Headphones</a>
-                                    <img class="technics" src="assets/images/technics-q-c-800-480-6.jpg" alt="Sony Headphone"> 
-                                </div>
-                                <div class="portfolio-images-wrap">
-                                    <a href="#">Party</a>
-                                    <img class="nightlife" src="assets/images/nightlife-q-c-800-480-3.jpg" alt="Party Time">
-                                </div>
-                                <div class="portfolio-images-wrap">
-                                    <a href="#">Late-Night Meal</a>
-                                    <img class="food" src="assets/images/food-q-c-800-480-8.jpg" alt="After Party Meal">
-                                </div>    
-                                <div class="portfolio-images-wrap">
-                                    <a href="#">Skyline</a>
-                                    <img class="city" src="assets/images/city-q-c-800-480-2.jpg" alt="Downtown">
-                                </div>
-                            </div>
-                    </section>
-                <div class="col-md-4">
-                    <aside class="sidebar">
+                        </section>
+                
+                <div class="clearfix visible"></div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <aside class="sidebar clearfix">
                         <h3 class="sidebar-header">Connect with Me</h3>
                         <a href="https://github.com/CoderChris8" target="_blank" class="sidebar-logo logogithub">
                             <img src="assets/images/GitHub-Mark-Light-64px.png" alt="Github logo"/>
